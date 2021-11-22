@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+ body{font-family: 'Shippori Antique', sans-serif;}
+
+ .header{
+    background-color: #f7f7f9;
+    height: 300px;
+    padding: 10px;
+        }
+
+.main h1{
+        margin-top: 110px;
+        text-align: center;
+        font-weight: bold;
+        color:#4d4e50;
+        }
+.box{
+     display: flex;
+     
+     flex-wrap: wrap;
+     justify-content: space-around;
+    }
+
+.card{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgb(99 99 99 / 20%) 0 2px 8px 0;
+    margin: 10px;
+    
+}
+.card :hover{transform:scale(1.1);
+    box-shadow:0px 20px 20px #b4c3b1;}
+
+.card img{height: 280px;
+          width: 280px;
+          margin-top: 20px;
+          margin-left: 10px;
+        }
+.card h3{font-weight: bold;}
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+     }
+.card2{ 
+        margin-top: 50px;
+        height: 300px;
+        width: 500px;
+       
+        }
+.card2 img{height: 300px;
+           width: 350px;}
+.card2 h3{color: blue;
+          }
+
+.card2 button{border: none;
+              background-color: blue;
+              color: white;
+              height: 50px;
+              width: 210px;
+              border-radius: 10px;
+            }
+
+.box3{display: flex;
+      flex-wrap: wrap;
+       justify-content: space-around;
+       background-color: #f7f7f9;
+       height: 500px;
+       width: 100%;
+      
+       }
+
+.card3{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20PX;
+}
+ 
+.card3 img{margin-left: 20px;
+         height: 150px;
+          width: 180px;
+          border-radius: 50%;
+        }
+.card3 p{
+      margin-top: 50px;
+     
+      width: 420px;
+      background-color: white;
+      text-justify: inherit;
+       }
+.card3 h4{text-align: center;}
+
+.box4{margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      height: 200px;
+     
+      }
+
+.card4{
+       width: 250px;
+       height: 60px;
+       box-shadow:0px 8px 8px #b4c3b1;
+       margin-top: 30px;
+}
+
+.box5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.card5{
+    height: 150px;
+    width: 300px;
+   
+    }
+
+.card5 img{height: 150px;
+           width: 320px;
+        border-radius: 20px;
+         margin-top: 10px;}
+
+.b-5 button{margin-top: 200px;
+       margin-left: 610px;
+       background-color: white;
+       color: black;
+       height: 50px;
+       width:300px ;
+    border-radius: 10px;}
+
+.checked {
+        color: orange;
+         }
+.box6{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#f7f7f9;
+    justify-content: space-around;
+    margin-top: 50px;
+    }
+
+.card6{
+ height: 250px;
+ width: 350px;
+}
+
+.card6 img{border-radius: 50%;}
+
+.footer-card i{color: rgb(61, 61, 61);
+                padding: 10PX;}
+.footer-box{display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+            }
+
+
+.footer-card, .footer-card0 li {
+                list-style: none;
+                }
+
+.footer-card .footer-card0, li a{
+                  color: #4d4e50;
+                 text-decoration: none;
+                 padding: 5px;}
+                   
+                   
+@media(max-width:550px)
+{
+
+body{margin: 0px;}
+    .card3{
+        width: 250px;
+    }
+    .card3 p{
+        display: none;
+        
+    }
+   
+    .card5{
+        margin: 30px;
+    }
+
+    .card5 p{
+        margin-top: 10px;
+    }
+
+.footer-card{
+       height: 200px;
+       width: 300px;
+       margin-top: 10px;
+            }
+.b-5 button{
+    margin-left: 10px;
+    width: 252px;
+    margin-top: 150px;
+
+}
+.footer-card0{margin-top: 100px;}
+
+.user h2{ margin-top: 210px;
+        font-size: 20px;}
+.know h3{
+    margin-top: 210px;
+    font-size: 20px;
+}
+}
+    
